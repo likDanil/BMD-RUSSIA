@@ -1,0 +1,34 @@
+{
+  "textExtractions_MOD": {
+    "ru-ru": {
+      "category": "Текст",
+      "sourceText": {
+        "name": "Текст для анализа"
+      },
+      "extraction": {
+        "name": "Извлечение",
+        "choices": [
+          {
+            "name": "Регулярное выражение",
+            "placeholder": "Регулярное выражение"
+          },
+          {
+            "name": "Число"
+          },
+          {
+            "name": "Слова",
+            "placeholder": "Слова, которые включают в себя"
+          }
+        ]
+      },
+      "caseInsensitive": {
+        "name": "Без учета регистра?",
+        "true": "да",
+        "false": "нет"
+      },
+      "extractedItem": {
+        "name": "Сохраняйте извлеченный Массив в виде"
+      }
+    }
+  }
+}
